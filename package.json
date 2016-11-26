@@ -1,6 +1,6 @@
 {
   "name": "requirejs-build",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build requirejs package",
   "main": "requirejs-build.js",
   "author": "zengohm",

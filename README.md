@@ -1,10 +1,15 @@
-Require Fast Build
+Require Build
 --------------------
+
+## Install
+```
+npm install -g requirejs-build
+```
 
 ## Usage
 
 ```
-/usr/bin/nodejs ./requirejs-build.js
+requirejs-build -s APP_ROOT -d DIST_ROOT [-i IGNORE]
 
 Options:
   -s, --src     project source dir                                                    [required]
@@ -14,7 +19,7 @@ Options:
 
 #### Example
 ```
-$ node requirejs-build.js -s example/app -d example/dist -i jquery
+$ requirejs-build -s example/app -d example/dist -i jquery
 example/app/require.config.js
 example/app/scripts/index.js
 example/app/scripts/lib/loader.js

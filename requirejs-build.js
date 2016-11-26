@@ -9,7 +9,7 @@ var path = require('path');
 var child_process = require('child_process');
 var r = require('./lib/r');
 var argv = require('optimist')
-    .usage('Build requirejs project.\nUsage: $0')
+    .usage('Build requirejs project.\nrequirejs-build -s APP_ROOT -d DIST_ROOT [-i IGNORE]')
     .string('s')
     .demand('s')
     .alias('s','src')
