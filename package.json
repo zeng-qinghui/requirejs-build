@@ -1,0 +1,15 @@
+{
+  "name": "requirejs-build",
+  "version": "0.0.1",
+  "description": "Build requirejs package",
+  "main": "requirejs-build.js",
+  "author": "zengohm",
+  "bin": "requirejs-build.js",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "lodash": "^4.17.2",
+    "optimist": "^0.6.1",
+    "requirejs": "^2.3.2"
+  }
+}
